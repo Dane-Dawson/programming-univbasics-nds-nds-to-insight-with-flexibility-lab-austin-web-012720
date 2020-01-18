@@ -118,7 +118,7 @@ def movies_with_directors_set(source)
   
   while index < source.length do 
     director_information = source[index]
-     movies_with_director_key(director_information[:name], director_information[:movies])
+     director_array.push movies_with_director_key(director_information[:name], director_information[:movies])
     index += 1 
   end
   director_array = flatten_a_o_a(director_array)
