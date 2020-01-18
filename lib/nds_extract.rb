@@ -121,8 +121,8 @@ def movies_with_directors_set(source)
     inner_index = 0
       while inner_index < director_information[:movies].length do
         movie = director_information[:movies][inner_index]
-        inner_array = []
-        inner_array.push movie
+        #inner_array = []
+        #inner_array.push movie
         movie[director_name] = director_information[:name]
         director_array.push movie
         inner_index += 1 
