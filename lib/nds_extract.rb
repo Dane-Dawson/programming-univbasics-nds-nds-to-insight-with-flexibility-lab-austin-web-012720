@@ -123,7 +123,7 @@ def movies_with_directors_set(source)
         movie = director_information[:movies][inner_index]
         #inner_array = []
         #inner_array.push movie
-        movie[director_name] = director_information[:name]
+        movie[:director_name] = director_information[:name]
         director_array.push movie
         inner_index += 1 
       end
