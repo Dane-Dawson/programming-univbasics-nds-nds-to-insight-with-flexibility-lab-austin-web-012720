@@ -112,7 +112,7 @@ def movies_with_directors_set(source)
   #source is array of hashes containing director information including :name and :movies
   
   #movies_array = movies_with_director_key(source[:name], source[:movies]) #array of movies with name of director as key
-  pp source
+
   index = 0 
   director_array = []
   
