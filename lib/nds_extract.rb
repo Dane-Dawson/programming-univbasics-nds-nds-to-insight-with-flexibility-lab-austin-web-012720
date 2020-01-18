@@ -123,7 +123,7 @@ def movies_with_directors_set(source)
   end
   director_array = flatten_a_o_a(director_array)
   
-  director_array
+  pp director_array
     
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
