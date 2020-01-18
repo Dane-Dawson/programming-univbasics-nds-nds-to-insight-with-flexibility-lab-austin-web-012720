@@ -127,8 +127,6 @@ def movies_with_directors_set(source)
         director_array.push movie
         inner_index += 1 
       end
-    
-    director_array << inner_array
     index += 1 
   end
   director_array = flatten_a_o_a(director_array)
