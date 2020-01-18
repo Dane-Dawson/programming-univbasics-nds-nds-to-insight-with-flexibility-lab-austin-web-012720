@@ -76,7 +76,7 @@ def gross_per_studio(collection)
   while index < collection.length do 
     
       studio_name = collection[index][:studio]
-    if studio_gross_hash.key?(studio_name) then
+    if !studio_gross_hash.key?(studio_name) then
        studio_gross_hash[studio_name] = 0
     end
 
