@@ -119,7 +119,7 @@ def movies_with_directors_set(source)
   while index < source.length do 
     director_information = source[index]
     ##inner_index = 0
-     movies_with_director_key(director_informtion[:name], director_information[:movies])
+     movies_with_director_key(director_information[:name], director_information[:movies])
       ##while inner_index < director_information[:movies].length do
         ##movie = director_information[:movies][inner_index]
         #inner_array = []
