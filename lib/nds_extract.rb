@@ -121,9 +121,10 @@ def movies_with_directors_set(source)
      director_array.push movies_with_director_key(director_information[:name], director_information[:movies])
     index += 1 
   end
-  director_array = flatten_a_o_a(director_array)
   
-  pp director_array
+  return flatten_a_o_a(director_array)
+  
+  
     
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
