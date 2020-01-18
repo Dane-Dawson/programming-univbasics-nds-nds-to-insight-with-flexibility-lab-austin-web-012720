@@ -117,6 +117,7 @@ def movies_with_directors_set(source)
   director_array = []
   
   while index < source.length do 
+    movies_with_director_key([index][:name], movies_collection)
     director_information = source[index]
     inner_index = 0
       while inner_index < director_information[:movies].length do
