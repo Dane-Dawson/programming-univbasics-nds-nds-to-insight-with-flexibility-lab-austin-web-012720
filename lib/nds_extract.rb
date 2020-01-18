@@ -122,7 +122,7 @@ def movies_with_directors_set(source)
     index += 1 
   end
   
-  return flatten_a_o_a(director_array)
+  director_array
   
   
     
